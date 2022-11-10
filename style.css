@@ -1,0 +1,66 @@
+
+    body {
+        background-color:#ddddddfa;
+    
+    }
+
+    ul.fejlec {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+    li.sziti {
+        float: left;
+      }
+      
+    a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 11px 12px;
+        text-decoration: none;
+      }
+      
+    .a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+    .active {
+        background-color: #ffffff;
+        color: #111;
+      }
+    
+      li.sziti {
+        margin: 4px;
+        border-radius: 10px;
+        padding: 6.1px;
+        width: 130px;
+        height: 35px;
+        font-size: 0.78em;
+        color: white;
+        border: none;
+      }
+      
+
+      li.sziti {
+        background: transparent;
+        border-style: solid;
+        animation: rotate 2s infinite;
+        border-color: #ed0eed #3454c9;
+        color: blueviolet;
+      }
+      
+      @keyframes rotate {
+        50% {
+          border-color: #3454c9 #ed0eed;
+        }
+        100% {
+          border-color: #ed0eed #3454c9;
+        }
+     }   
+     
+  
+     
