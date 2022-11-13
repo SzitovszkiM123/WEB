@@ -1,6 +1,6 @@
 
     body {
-        background-color:#ddddddfa;
+        background-color:rgba(238, 238, 238, 0.829);
     
     }
 
@@ -62,5 +62,16 @@
         }
      }   
      
-  
-     
+
+     img {
+      border-radius: 5%;
+      border:rgb(255, 255, 255) solid 3px;
+    }
+
+    body.keplink {
+      background-image: url(img/logo.png)
+    }
+    body.urlap {
+      background-image: url(img/urlaphatter.jpg);
+      color: azure;
+    }
