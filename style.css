@@ -71,7 +71,25 @@
     body.keplink {
       background-image: url(img/logo.png)
     }
+
     body.urlap {
       background-image: url(img/urlaphatter.jpg);
       color: azure;
+    }
+
+    body.tablazat {
+      background-image: url(img/iskola1.jpg);
+      background-repeat: no-repeat;
+      background-size: 1920px 1080px;
+    }
+
+    table {
+      margin-right: auto;
+      margin-left: auto;
+      
+    }
+
+    caption {
+      background-color: blueviolet;
+      color: white ;
     }
