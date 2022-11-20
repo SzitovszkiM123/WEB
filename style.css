@@ -123,18 +123,4 @@
         background-color: rgb(220, 218, 253);
        }
 
-       #zene {
-        position:absolute;
-        left:23%;
-        bottom:25%;
-        border: 3px solid white;
-        background-color: rgb(47, 67, 75);
-        width: 300px;
-        height: 60px;
-        text-align: center;
-        padding: 20px;
-        border-radius: 7%;
-       }
-
-       
-
+     
