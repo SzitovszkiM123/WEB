@@ -31,6 +31,7 @@
     .active {
         background-color: #ffffff;
         color: #111;
+  
       }
     
       li.sziti {
@@ -42,15 +43,11 @@
         font-size: 0.78em;
         color: white;
         border: none;
-      }
-      
-
-      li.sziti {
         background: transparent;
         border-style: solid;
         animation: rotate 2s infinite;
         border-color: #ed0eed #3454c9;
-        color: blueviolet;
+        
       }
       
       @keyframes rotate {
@@ -93,3 +90,51 @@
       background-color: blueviolet;
       color: white ;
     }
+
+
+    div {
+      float: left;
+    }
+    
+    img.evszakok {
+      border: 7px solid rgb(47, 67, 75);
+      border-radius: 5%;
+      width: 250px;
+      margin: 20px;
+      transition: 1s;
+    }
+
+    img.evszakok:hover {
+      transform: scale(1.08);
+    }
+
+    img.evszakok:hover + p {
+      font-size: xx-large
+    }
+
+    p.evszakok {
+      font-size: large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      transition: 1s;
+       }
+
+       body.evszakok {
+        background-color: rgb(220, 218, 253);
+       }
+
+       #zene {
+        position:absolute;
+        left:23%;
+        bottom:25%;
+        border: 3px solid white;
+        background-color: rgb(47, 67, 75);
+        width: 300px;
+        height: 60px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 7%;
+       }
+
+       
+
