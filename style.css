@@ -1,6 +1,10 @@
 
     body {
         background-color:rgba(238, 238, 238, 0.829);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     
     }
 
@@ -10,6 +14,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #333;
+        position: static;
       }
       
     li.sziti {
@@ -136,7 +141,26 @@
         border: 3px solid white;
        }
 
-      
+       div.footer {
+        text-align: center;
+        background-color: #333;
+        position: static;
+        left: 0;
+        bottom: 0;
+        height: 2.5rem;
+        padding-bottom: 2.5rem;
+        border-top: 3px solid blueviolet;
+        border-bottom: 3px solid blueviolet ;
+        margin-top: auto;
+        width: 100%;
+        
+        }
 
-       
+        div.urlap {
+          width: auto;
+        }
+
+        div.szoveg {
+          margin: 10px;
+        }
 
